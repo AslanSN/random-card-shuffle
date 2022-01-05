@@ -129,14 +129,13 @@ const newRandomCard = () => notUsedDeck[randomIndex(notUsedDeck)];
 Get a new index number from the not used deck and **_"VOILÀ!"_**, no more `undefined` issues!
 
 # Final Result
-
-[![Aslan's Random Poker Card Generator](https://raw.githubusercontent.com/AslanSN/random-card-shuffle/master/src/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")](https://raw.githubusercontent.com/AslanSN/random-card-shuffle/master/src/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")
+<img src="./src/resources/Demo-Random-Card-generator.gif" alt="Aslan's Demo of the Random shuffle card" width="350" height="600">
 
 ---
 
 ## How to run it
 
-It should run automatically but if not just run:
+It should run automatically but, if not, just run:
 
 1. `npm install`
 2. `npm run start`
