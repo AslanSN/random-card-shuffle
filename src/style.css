@@ -1,1 +1,101 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&family=Major+Mono+Display&display=swap");
+
+body {
+  background: #00a651;
+}
+
+.row .card {
+  position: relative;
+  margin: auto;
+  float: center;
+  width: 300px;
+  height: 440px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  text-align: center;
+  font: 200px/380px Georgia, Times New Roman, serif;
+}
+#number {
+  margin-top: 1em;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: regular;
+}
+#suit {
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+  font-weight: bold;
+}
+#random {
+  font-family: "Major Mono Display", monospace;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.spread {
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.suitdiamonds:before,
+.suitdiamonds:after {
+  content: "♦";
+  color: #ff0000;
+}
+
+.suithearts:before,
+.suithearts:after {
+  content: "♥";
+  color: #ff0000;
+}
+
+.suitclubs:before,
+.suitclubs:after {
+  content: "♣";
+  color: #000;
+}
+
+.suitspades:before,
+.suitspades:after {
+  content: "♠";
+  color: #000;
+}
+
+div[class*="suit"]:before {
+  position: absolute;
+  font-size: 70px;
+  left: 5px;
+  top: 5px;
+}
+
+div[class*="suit"]:after {
+  position: absolute;
+  font-size: 70px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.hand {
+  margin: 50px;
+}
+
+.hand:before,
+.hand:after {
+  content: "";
+  display: table;
+}
+
+.hand:after {
+  clear: both;
+}
+
+.hand {
+  zoom: 1;
+}
