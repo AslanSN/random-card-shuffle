@@ -130,7 +130,7 @@ Get a new index number from the not used deck and **_"VOILÀ!"_**, no more `unde
 
 # Final Result
 
-[![Aslan's Random Poker Card Generator](https://raw.githubusercontent.com/AslanSN/random-card-generator-deck/task/randomCardGenerator/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")](http://https://raw.githubusercontent.com/AslanSN/random-card-generator-deck/task/randomCardGenerator/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")
+[![Aslan's Random Poker Card Generator](https://raw.githubusercontent.com/AslanSN/random-card-shuffle/master/src/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")](https://raw.githubusercontent.com/AslanSN/random-card-shuffle/master/src/resources/Demo-Random-Card-generator.gif "Aslan's Random Poker Card Generator")
 
 ---
 
